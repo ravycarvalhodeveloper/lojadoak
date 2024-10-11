@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Container>
       <Fade triggerOnce={true} direction="right" cascade damping={2.0}>
-        <motion.div className='w-full flex flex-col justify-center items-center mt-9' >
+        <motion.div className='w-full flex flex-col justify-center items-center mt-7' >
           <img 
             className='w-64 hover:scale-105 duration-300'
             src={logo} alt="" 
