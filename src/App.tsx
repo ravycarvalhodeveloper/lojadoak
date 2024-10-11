@@ -27,17 +27,17 @@ export default function App() {
     <Fade direction="up" triggerOnce={true} cascade damping={3.0} >
       <div className='w-full items-center flex flex-col gap-3 justify-center mt-5 lg:flex-row lg:gap-10 lg:mt-1'>
           <a 
-              className='border-2 border-doak-white bg-doak-white h-30 w-full max-w-80 font-custom font-bold text-doak-black p-2 rounded flex items-center justify-center gap-2
+              className='border-2 border-doak-white bg-doak-white lg:h-20  h-30 w-full max-w-80 font-custom font-bold text-doak-black p-2 rounded flex items-center justify-center gap-2
               hover:scale-105 duration-300 hover:bg-doak-whiteff/60'
               href="https://wa.me/c/558896388210" target="_blank">
               <h3 className="text-xl">Catálogo</h3> <MdInventory  size={24}/>
           </a>
 
           <a 
-              className='border-2 border-doak-white  bg-doak-white  h-30 w-full max-w-80 font-custom font-bold text-doak-black p-2 rounded flex items-center justify-center gap-2 hover:scale-105 duration-300  hover:bg-doak-whiteff/60'
+              className='border-2 border-doak-white lg:h-20 lg:flex lg:items-center bg-doak-white  h-30 w-full max-w-80 font-custom font-bold text-doak-black p-2 rounded flex items-center justify-center gap-2 hover:scale-105 duration-300  hover:bg-doak-whiteff/60'
               href="https://wa.me/message/RRLER6ZGDJVPB1" target="_blank">
               
-              <h3 className="text-xl">Faça o seu pedido!</h3> <IoBagCheckSharp size={24} />
+              <h3 className="text-xl ">Faça o seu pedido!</h3> <IoBagCheckSharp  size={24} />
           </a>
 
       </div>
