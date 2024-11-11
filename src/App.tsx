@@ -7,8 +7,13 @@ import Container from './components/Container'
 import Pagination from "./components/Pagination/Index";
 import { motion } from "framer-motion"
 import { Fade } from "react-awesome-reveal"
+import { trackEvent} from './facebookPixel';
+
+
 
 export default function App() {
+
+  trackEvent('Lead');
 
   return (
     <Container>
@@ -34,6 +39,7 @@ export default function App() {
           </a>
 
           <a 
+
               className='border-2 border-doak-white lg:h-20 lg:flex lg:items-center bg-doak-white  h-30 w-full max-w-80 font-custom font-bold text-doak-black p-2 rounded flex items-center justify-center gap-2 hover:scale-105 duration-300  hover:bg-doak-whiteff/60'
               href="https://wa.me/message/RRLER6ZGDJVPB1" target="_blank">
               
