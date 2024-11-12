@@ -1,7 +1,7 @@
 // facebookPixel.ts
 import ReactPixel from 'react-facebook-pixel';
 
-const pixelId: string = '1722741844933924';
+const pixelId: string = '1575423653363999';
 
 export const initFacebookPixel = (): void => {
   ReactPixel.init(pixelId);
